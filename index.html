@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="intro-section">
+            <div class="intro-detail">
+                <div class="intro-heading">
+                    <h2>AWARD WINNING</h2>
+                </div>
+                <div class="intro-subheading">
+                    <h1>DIGITAL MARKETING AGENCY</h1>
+                </div>
+                <div class="intro-desc">
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla eu at purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+                    <button id="contactUsBtn">Contact Us</button>
+                </div>
+            </div>
+            <div class="intro-img">
+                <img src="./taskimg/img1.png" alt="Marketing Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-up form -->
+    <div id="contactFormPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2>Talk to us</h2>
+            <form id="contactForm" action="https://getform.io/f/azylwxvb" method="POST">
+                <label for="email">Work email</label>
+                <input type="email" id="email" name="email" required>
+                <div class="name-fields">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                </div>
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+   <div class="wrapper2">
+    <div class="services-section">
+        <div class="info">  <h2>WHAT WE DO</h2>
+            <h1>SERVICES PROVIDE FOR YOU</h1></div>
+      
+        <div class="slider">
+            <div class="slide">
+                <div class="service-img">
+                    <img src="./taskimg/img2.png" alt="Service 1">
+                    <div class="overlay">
+                        <div class="text">WEB DEVELOPMENT</div>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <button class="read-more">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="service-img">
+                    <img src="./taskimg/img3.png" alt="Service 2">
+                    <div class="overlay">
+                        <div class="text">WEB DEVELOPMENT</div>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <button class="read-more">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="service-img">
+                    <img src="./taskimg/img4.png" alt="Service 3">
+                    <div class="overlay">
+                        <div class="text">WEB DEVELOPMENT</div>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <button class="read-more">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+   </div> 
+   <div class="wrapper3">
+    <section class="our-projects">
+        <h2>OUR PROJECT</h2>
+        <h3>WHY WE ARE BEST</h3>
+        <div class="project-container">
+            <div class="project-image" id="project-image">
+             
+            </div>
+
+            <div class="project-content">
+                <div class="project-item" data-image="./taskimg/img6.jpg">
+                    <h4>Genderless Kei – Japan’s Hot</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of...</p>
+                </div>
+                <div class="project-item active" data-image="./taskimg/img5.png">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of...</p>
+                </div>
+                <div class="project-item" data-image="./taskimg/img7.jpg">
+                    <h4>Genderless Kei – Japan’s Hot</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>
+   <section class="company-growth">
+    <h2>EXPERTS GROWTH</h2>
+    <h3>OUR COMPANY GROWTH</h3>
+    <div class="growth-cards">
+        <div class="growth-card">
+            <span class="icon">❤️</span>
+            <h4>199 +</h4>
+            <p>Satisfied Customers</p>
+        </div>
+        <div class="growth-card">
+            <span class="icon">🕒</span>
+            <h4>1591+</h4>
+            <p>Days Of Operation</p>
+        </div>
+        <div class="growth-card">
+            <span class="icon">✔️</span>
+            <h4>283 +</h4>
+            <p>Complete Projects</p>
+        </div>
+        <div class="growth-card">
+            <span class="icon">🏆</span>
+            <h4>75+</h4>
+            <p>Win Awards</p>
+        </div>
+    </div>
+</section>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
